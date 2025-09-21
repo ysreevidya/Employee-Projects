@@ -25,4 +25,8 @@ class Employee(Base):
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
     position = Column(String, nullable=True)
+    # age = Column(Integer, nullable=True)
+    age = Column(Integer, nullable=False)
+
+
 

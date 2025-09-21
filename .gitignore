@@ -1,0 +1,28 @@
+# Node.js (frontend)
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# Python (backend)
+backend/__pycache__/
+backend/*.pyc
+backend/instance/
+backend/.env
+backend/venv/
+
+# Alembic migrations cache
+backend/alembic/__pycache__/
+backend/alembic/*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/

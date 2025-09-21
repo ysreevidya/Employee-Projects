@@ -28,11 +28,14 @@
 
 
 from pydantic import BaseModel
+from typing import Optional
 
 class EmployeeBase(BaseModel):
     name: str
     email: str
     position: str | None = None
+    # age: Optional[int] = None
+     age: int
 
 class EmployeeCreate(EmployeeBase):
     pass
